@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcador de Baloncesto</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+   <audio id="buzzer" src="sound/buzzer.wav" preload="auto"></audio>
+ <div id="resetInputContainer" style="display: none;">
+    <label for="resetInput">Nuevo tiempo:</label>
+    <input type="text" id="resetInput" value="10:00">
+    <button onclick="resetTimer()">Aceptar</button>
+    <button onclick="hideResetInput()">Cancelar</button>
+    </div>
+   <div id="scoreContainer">
+    <div id="localContainer">
+        <span id="localLabel">LOCAL</span>
+        <span id="localScore">00</span>
+        
+    </div>
+    <div id="logosContainer">
+     <img src="img/local.jpg" alt="Logo Local">
+     VS
+     <img src="img/visitante.jpg" alt="Logo Visitante">
+    </div>
+    <div id="visitanteContainer">
+        <span id="visitanteLabel">VISITANTE</span>
+        <span id="visitanteScore">00</span>
+    </div>
+</div>
+
+
+    <div id="timer"><span id="timerText">10:00</span></div>
+    <div id="buttonContainer">
+      <div>
+        <button id="localButtonPlus" onclick="updateScore('local', 1)">+1 Local</button>
+        <button id="localButtonMinus" onclick="updateScore('local', -1)">-1 Local</button>
+      </div>
+      <div>
+        <button id="timerButton" onclick="toggleTimer()">Iniciar Cronómetro</button>
+        <button id="buzzerButton" onclick="playBuzzer()">Buzzer</button>
+        <button id="resetButton" onclick="showResetInput()">Fijar Cronómetro</button>
+        
+      </div>
+      <div>
+        <button id="visitanteButtonPlus" onclick="updateScore('visitante', 1)">+1 Visitante</button>
+        <button id="visitanteButtonMinus" onclick="updateScore('visitante', -1)">-1 Visitante</button>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #007bff; /* Color azul */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#scoreContainer {
+    #font-family: "VT323", monospace;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+#timer {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    width: 75%;
+    background-color: black;
+    border: 10px solid white;
+    border-radius: 15px;
+    position: relative;
+}
+
+#timerText {
+    color: orange;
+    font-size: 25vw;
+    margin: 0;
+    line-height: 0.8; 
+    
+}
+
+
+#buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Color de fondo de la barra flotante */
+    padding: 10px; /* Espaciado interno de la barra flotante */
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1); /* Sombra bajo la barra flotante */
+}
+
+button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#timerButton {
+    background-color: #ffc107; /* Amarillo para el botón de iniciar/parar cronómetro */
+    color: #333;
+}
+
+#resetButton {
+    background-color: blue; /* Amarillo para el botón de iniciar/parar cronómetro */
+    color: #333;
+}
+
+#buzzerButton{
+    background-color: red; /* Amarillo para el botón de iniciar/parar cronómetro */
+    color: #333;
+}
+
+#localContainer {
+    flex: 1;
+    position: relative;
+}
+
+#visitanteContainer {
+    flex: 1;
+    position: relative;
+}
+
+#localLabel,
+#visitanteLabel {
+    position: absolute;
+    top: 0;
+    left: 50%; /* Centra el texto horizontalmente */
+    transform: translateX(-50%); /* Centra el texto horizontalmente */
+    background-color: black;
+    color: red;
+    padding: 5px;
+    font-size: 3vw;
+}
+
+#localScore,
+#visitanteScore {
+    border: 10px solid white;
+    border-radius: 15px;
+    overflow: hidden; 
+    font-size: 25vw;
+    background-color: black;
+    color: red;
+}
+
+#logosContainer img {
+    margin-top:50px;
+    width: 35%; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Ajusta el margen según sea necesario */
+    margin-left: 10px; /* Ajusta el margen según sea necesario */
+}
+
+#buttonContainer {
+    transition: bottom 0.3s ease; /* Agrega una transición suave de 0.3 segundos */
+}
