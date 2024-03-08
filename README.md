@@ -27,7 +27,7 @@ Es posible controlar el marcador desde el **teclado** con las siguientes teclas:
 * **l** : disminuir el marcador visitante
 * **espacio**: arrancar y parar el cronómetro
 
-## Logos
+## Logos e imagen de fondo
 Por defecto muestra como logos de los equipos dos imagenes, 'local.jpg' y 'visitante.jpg', que están en la carpeta *img*. 
 
 Es posible indicar por parámetros de la url las imagenes a utilizar, para ello se utilizan los parámetros **localLogoUrl** y **visitanteLogoUrl**.
@@ -35,3 +35,7 @@ Es posible indicar por parámetros de la url las imagenes a utilizar, para ello 
 La siguiente url intercambia los logos por defecto:
 
 [https://jpenalta.github.io/scoreboard/?visitanteLogoUrl=https://raw.githubusercontent.com/jpenalta/scoreboard/main/img/local.jpg&localLogoUrl=https://raw.githubusercontent.com/jpenalta/scoreboard/main/img/visitante.jpg](https://jpenalta.github.io/scoreboard/?visitanteLogoUrl=https://raw.githubusercontent.com/jpenalta/scoreboard/main/img/local.jpg&localLogoUrl=https://raw.githubusercontent.com/jpenalta/scoreboard/main/img/visitante.jpg)
+
+También es posible indicar una imagen de fondo pasando como parámetro **backgroundImageUrl**. La siguiente url fija como fondo una imagen de pixabay:
+
+[https://jpenalta.github.io/scoreboard?backgroundImageUrl=https://cdn.pixabay.com/photo/2020/07/08/08/04/sunset-5383040_960_720.jpg](https://jpenalta.github.io/scoreboard?backgroundImageUrl=https://cdn.pixabay.com/photo/2020/07/08/08/04/sunset-5383040_960_720.jpg)
