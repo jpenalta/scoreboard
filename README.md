@@ -12,12 +12,14 @@ Se puede utilizar directamente en el siguiente enlace:
 ## Funcionamiento
 Moviendo el cursor a la parte inferior de la pantalla aparece una barra con botones que permiten:
 
+![menú](img/barraMenu.png)
+
 * **+1 Local**  y **-1 Local**: aumentar y disminuir el valor del marcador local.
 * **+1 Visitante**  y **-1 Visitante**: aumentar y disminuir el valor del marcador local.
 * **Iniciar Cronómetro** y **Parar Cronómetro** : arrancar y parar el cronómetro.
 * **Fijar Cronómetro**: modificar el valor del cronómetro al valor que se desee.
 
-Es posible controlar el marcador desde el teclado con las siguientes teclas:
+Es posible controlar el marcador desde el **teclado** con las siguientes teclas:
 
 * **a** : aumentar el marcador local
 * **s** : disminuir el marcador local
