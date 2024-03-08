@@ -35,8 +35,7 @@ h1 {
     position: relative;
 }
 
-
-#timer {
+#timerContainer {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     width: 75%;
@@ -54,7 +53,6 @@ h1 {
     
 }
 
-
 #buttonContainer {
     display: flex;
     justify-content: space-around;
@@ -64,6 +62,7 @@ h1 {
     background-color: #333; /* Color de fondo de la barra flotante */
     padding: 10px; /* Espaciado interno de la barra flotante */
     box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1); /* Sombra bajo la barra flotante */
+    transition: bottom 0.3s ease; /* Agrega una transición suave de 0.3 segundos */
 }
 
 button {
@@ -122,14 +121,17 @@ button {
     color: red;
 }
 
+#logosContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 5vw;
+}
+
 #logosContainer img {
-    margin-top:50px;
     width: 35%; /* Ajusta el tamaño según sea necesario */
     height: auto; /* Mantiene la proporción de la imagen */
     margin-right: 10px; /* Ajusta el margen según sea necesario */
     margin-left: 10px; /* Ajusta el margen según sea necesario */
 }
 
-#buttonContainer {
-    transition: bottom 0.3s ease; /* Agrega una transición suave de 0.3 segundos */
-}
