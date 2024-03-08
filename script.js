@@ -9,13 +9,17 @@ const urlParams = new URLSearchParams(window.location.search);
 // Obtén los valores de los parámetros de la URL
 const localLogoUrl = urlParams.get('localLogoUrl');
 const visitanteLogoUrl = urlParams.get('visitanteLogoUrl');
+const backgroundImageUrl = urlParams.get('backgroundImageUrl');
 
-if (isNaN(localLogoUrl) && isNaN(visitanteLogoUrl)) {
-    // Asigna las URLs de los logos a las imágenes
+if (localLogoUrl) {
     document.getElementById("localLogo").src = localLogoUrl;
+}
+if(visitanteLogoUrl){
     document.getElementById("visitanteLogo").src = visitanteLogoUrl;
 }
-
+if (backgroundImageUrl) {
+    document.body.style.backgroundImage = `url('${backgroundImageUrl}')`;
+}
 
 function toggleTimer() {
     const button = document.getElementById("timerButton");
