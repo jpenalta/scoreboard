@@ -2,6 +2,8 @@
 
 Marcador de baloncesto simple con cronómetro. 
 
+![ScoreBoard](./img/scoreboard.png )
+
 Se puede utilizar directamente en el siguiente enlace:
 
 [https://jpenalta.github.io/scoreboard/](https://jpenalta.github.io/scoreboard/ "ScoreBoard")
