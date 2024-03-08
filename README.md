@@ -2,7 +2,7 @@
 
 Marcador de baloncesto simple con cronómetro. 
 
-![ScoreBoard](./img/scoreboard.png )
+![ScoreBoard](img/scoreborad.png)
 
 Se puede utilizar directamente en el siguiente enlace:
 
