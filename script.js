@@ -3,6 +3,20 @@ let minutes = 10;
 let seconds = 0;
 let isTimerRunning = false;
 
+// Obtiene la URL actual
+const urlParams = new URLSearchParams(window.location.search);
+
+// Obtén los valores de los parámetros de la URL
+const localLogoUrl = urlParams.get('localLogoUrl');
+const visitanteLogoUrl = urlParams.get('visitanteLogoUrl');
+
+if (isNaN(localLogoUrl) && isNaN(visitanteLogoUrl)) {
+    // Asigna las URLs de los logos a las imágenes
+    document.getElementById("localLogo").src = localLogoUrl;
+    document.getElementById("visitanteLogo").src = visitanteLogoUrl;
+}
+
+
 function toggleTimer() {
     const button = document.getElementById("timerButton");
 
