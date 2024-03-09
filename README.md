@@ -38,4 +38,4 @@ La siguiente url intercambia los logos por defecto:
 
 También es posible indicar una imagen de fondo pasando como parámetro **backgroundImageUrl**. La siguiente url fija como fondo una imagen de pixabay:
 
-[https://jpenalta.github.io/scoreboard?backgroundImageUrl=https://cdn.pixabay.com/photo/2020/07/08/08/04/sunset-5383040_960_720.jpg](https://jpenalta.github.io/scoreboard?backgroundImageUrl=https://cdn.pixabay.com/photo/2020/07/08/08/04/sunset-5383040_960_720.jpg)
+[https://jpenalta.github.io/scoreboard/?backgroundImageUrl=https://cdn.pixabay.com/photo/2017/08/07/22/24/hobbies-2608561_960_720.jpg](https://jpenalta.github.io/scoreboard/?backgroundImageUrl=https://cdn.pixabay.com/photo/2017/08/07/22/24/hobbies-2608561_960_720.jpg)
