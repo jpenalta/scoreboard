@@ -1,25 +1,27 @@
 # Basketball Scoreboard
 
-Marcador de baloncesto simple con cronómetro. 
+Marcador simple con cronómetro. 
 
 ![ScoreBoard](img/scoreboard.png)
 
-Se puede utilizar directamente en el siguiente enlace:
+Se puede utilizar directamente desde el siguiente enlace:
 
 [https://jpenalta.github.io/scoreboard/](https://jpenalta.github.io/scoreboard/ "ScoreBoard")
 
 
 ## Funcionamiento
-Moviendo el cursor a la parte inferior de la pantalla aparece una barra con botones que permiten:
+Moviendo el cursor a la parte inferior de la pantalla aparece una barra con botones.
 
 ![menú](img/barraMenu.png)
+
+Esta barra permite:
 
 * **+1 Local**  y **-1 Local**: aumentar y disminuir el valor del marcador local.
 * **+1 Visitante**  y **-1 Visitante**: aumentar y disminuir el valor del marcador local.
 * **Iniciar Cronómetro** y **Parar Cronómetro** : arrancar y parar el cronómetro.
 * **Fijar Cronómetro**: modificar el valor del cronómetro al valor que se desee.
 
-Es posible controlar el marcador desde el **teclado** con las siguientes teclas:
+También es posible controlar el marcador desde el **teclado** con las siguientes teclas:
 
 * **a** : aumentar el marcador local
 * **s** : disminuir el marcador local
