@@ -34,9 +34,9 @@ Por defecto muestra como logos de los equipos dos imagenes, 'local.jpg' y 'visit
 
 Es posible indicar por parámetros de la url las imagenes a utilizar, para ello se utilizan los parámetros **localLogoUrl** y **visitanteLogoUrl**.
 
-La siguiente url intercambia los logos por defecto:
+La siguiente url usa como logos los del Obra y el Breo:
 
-[https://jpenalta.github.io/scoreboard/?visitanteLogoUrl=https://raw.githubusercontent.com/jpenalta/scoreboard/main/img/local.jpg&localLogoUrl=https://raw.githubusercontent.com/jpenalta/scoreboard/main/img/visitante.jpg](https://jpenalta.github.io/scoreboard/?visitanteLogoUrl=https://raw.githubusercontent.com/jpenalta/scoreboard/main/img/local.jpg&localLogoUrl=https://raw.githubusercontent.com/jpenalta/scoreboard/main/img/visitante.jpg)
+[https://jpenalta.github.io/scoreboard/?visitanteLogoUrl=https://static.acb.com/logos/1718/breogan_00.png&localLogoUrl=https://static.acb.com/img/www/clubes2023/MonbusObradoiro-2023-LogoPos.png](https://jpenalta.github.io/scoreboard/?visitanteLogoUrl=https://static.acb.com/logos/1718/breogan_00.png&localLogoUrl=https://static.acb.com/img/www/clubes2023/MonbusObradoiro-2023-LogoPos.png)
 
 También es posible indicar una imagen de fondo pasando como parámetro **backgroundImageUrl**. La siguiente url fija como fondo una imagen de pixabay:
 
